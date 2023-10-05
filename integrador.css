@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: right;
+    color: #f2f2f2a9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .topnav a:hover{
+    color: white;
+  }
+
+  .comprar{
+    color:green;    
+  }
+  .conf{
+    float:left;
+    color:white;
+  }
+
+  .conteiner1{
+    background-image:  url(ba1.jpg);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    
+  }
+
+  
+
+  .titulo1{
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    transform: translate(-50%,-50%);
+    padding-top:50px;
+  }
+
+  .parrafo1{
+    width:400px ;
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left:75% ;
+    transform: translate(-50%,-50%);
+      
+  }
+
+  .botones{
+    text-align: end;
+    padding-top: 590px;
+    padding-right: 180px;  
+  }
+
+  .conoceoradores{
+    text-align: center;
+  }
+
+  .tarjetas{
+    display: flex;
+    margin: 20px;
+    padding:50px;
+    overflow: hidden;
+    
+  }
+
+  .img2{
+    width: 380px;
+    height: 380px;
+    display: flex;
+    position: absolute;
+    background-size:contain ;
+    background-repeat: no-repeat; 
+
+  }
+
+  footer{
+    background-color: #3326a9;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+  }
+
